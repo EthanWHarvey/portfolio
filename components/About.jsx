@@ -13,25 +13,30 @@ const About = () => {
           </p>
           <h2 className='text-gray-300 py-4'>Who I Am</h2>
           <p className='py-4 text-gray-200'>
-            I’m a very ambitious Blockchain Developer who emphasizes creating
+            I’m a very ambitious web Developer who emphasizes creating
             excellent functional and fast software. I can develop smart
             contracts that are flawless and secure as well as plan, build, and
             launch a website. I have been blockchain developing for two years
-            and coding since I was 16. I am looking for a role in an established
-            company with the opportunity to work with the latest technologies on
-            diverse and challenging projects.
+            and building websites since I was 16. I am looking for a role in an
+            established company with the opportunity to work with the latest
+            technologies on diverse and challenging projects.
           </p>
           <p className='text-xl inline border-b-4 border-[#E94B3CFF] text-gray-300 '>
             {" "}
-            Why Blockchain?
+            Why Blockchain / Front-end?
           </p>
           <p className='py-6 text-gray-200'>
             I chose to specialize in blockchain because when I first found out
             about cryptocurrencies, NFTs, and web3.0 I was very fascinated and
-            intrigued by its technology. Ever since then I have become immersed
-            in the languages and architecture, and I can confidently say there
-            is nothing id rather do. Heck, who wouldn’t want to take part in the
-            future of the internet?
+            intrigued by its technology. I chose front-end because there is
+            almost no better feeling to me than seeing your work come to life
+            almost instantly. Designing, laying out, and optimizing websites is
+            one of the most important parts of web development due to the first
+            impression your site gives off determines if users stick around or
+            not. Ever since then I have become immersed in the languages and
+            architecture, and I can confidently say there is nothing id rather
+            do. Heck, who wouldn’t want to take part in the future of the
+            internet?
           </p>
           <p className='text-xl inline border-b-4 border-[#E94B3CFF] text-gray-300 '>
             Life When I&apos;m Not Coding!

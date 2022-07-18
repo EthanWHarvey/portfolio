@@ -15,12 +15,15 @@ const Main = () => {
           <h1 className='py-4 text-gray-300'>
             Hi, I'm <span className='text-[#E94B3CFF]'> Ethan</span>
           </h1>
-          <h1 className='py-2 text-gray-300'>A Blockchain Developer</h1>
+          <h1 className='py-2 text-gray-300'>
+            A Blockchain / Front-end Developer
+          </h1>
           <p className='py-4 text-gray-200 max-w-[70%] m-auto'>
-            I’m a blockchain developer, a full-stack developer, and a solidity
-            developer. I specialize in developing and optimizing dApps
-            (decentralized applications) and smart contracts based on blockchain
-            and occasionally blockchain architecture.
+            I specialize in developing and optimizing dApps (Decentralized
+            applications) and smart contracts based on blockchain and
+            occasionally blockchain architecture as well as creating modern,
+            responsive, websites that emphasize optimizing user experience and
+            functionality.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
