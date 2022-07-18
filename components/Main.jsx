@@ -22,7 +22,7 @@ const Main = () => {
             I specialize in developing and optimizing dApps (Decentralized
             applications) and smart contracts based on blockchain and
             occasionally blockchain architecture as well as creating modern,
-            responsive, websites that emphasize optimizing user experience and
+            responsive websites that emphasize optimizing user experience and
             functionality.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
