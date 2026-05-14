@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/about.jpg";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import MeImg from "../public/assets/me3.png";
 
 const About = () => {
   return (
@@ -13,42 +15,32 @@ const About = () => {
           </p>
           <h2 className='text-gray-300 py-4'>Who I Am</h2>
           <p className='py-4 text-gray-200'>
-            I’m a very ambitious web Developer who emphasizes creating
-            excellent functional and fast software. I can develop smart
-            contracts that are flawless and secure as well as plan, build, and
-            launch a website. I have been blockchain developing for two years
-            and building websites since I was 16. I am looking for a role in an
-            established company with the opportunity to work with the latest
-            technologies on diverse and challenging projects.
+            My primary focus is enlightn, the client acquisition agency I
+            founded in 2022 that helps creators, coaches, and consultants build
+            predictable revenue. Building and running a real business has been
+            the most formative experience of my life — it has shaped how I think
+            about systems, strategy, and what it actually takes to deliver
+            results for people.
           </p>
-          <p className='text-xl inline border-b-4 border-[#E94B3CFF] text-gray-300 '>
-            {" "}
-            Why Blockchain / Front-end?
+          <p className='py-2 text-gray-200'>
+            Alongside that, I am pursuing a B.S. in Computer Science at the
+            University of Colorado Colorado Springs, where I am steadily
+            expanding my technical skills in Java, Python, C, and web
+            development. I see software engineering as a long-term investment
+            that makes me a sharper operator and builder — not a career pivot,
+            but a deliberate layer on top of the business foundation I have
+            already been developing.
           </p>
-          <p className='py-6 text-gray-200'>
-            I chose to specialize in blockchain because when I first found out
-            about cryptocurrencies, NFTs, and web3.0 I was very fascinated and
-            intrigued by its technology. I chose front-end because there is
-            almost no better feeling to me than seeing your work come to life
-            almost instantly. Designing, laying out, and optimizing websites is
-            one of the most important parts of web development due to the first
-            impression your site gives off determines if users stick around or
-            not. Ever since then I have become immersed in the languages and
-            architecture, and I can confidently say there is nothing id rather
-            do. Heck, who wouldn’t want to take part in the future of the
-            internet?
-          </p>
-          <p className='text-xl inline border-b-4 border-[#E94B3CFF] text-gray-300 '>
-            Life When I&apos;m Not Coding!
+          <p className='text-xl inline border-b-4 border-[#E94B3CFF] text-gray-300'>
+            Why CS and Business?
           </p>
           <p className='py-6 text-gray-200'>
-            Currently, I am going into my second-year student at the University
-            of Colorado – Colorado Springs where I am pursuing my BS in Computer
-            Science. Most of my programming knowledge is self-taught as I love
-            and am very passionate about programming. When I&apos;m not coding,
-            I love to play basketball, watch sports (Formula 1, football,
-            basketball, soccer) hang out with friends and family, learn
-            Japanese, and watch anime!
+            Running enlightn taught me that the best ideas die without good
+            execution, and understanding technology makes you a better decision
+            maker regardless of what you are building. I am interested in how
+            software, systems thinking, and business strategy overlap — and I am
+            always finding ways to apply what I learn on the engineering side
+            directly to the work I am doing every day.
           </p>
           <Link href='/#projects'>
             <p className='py-4 text-gray-200 underline cursor-pointer'>
@@ -56,12 +48,78 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+
+        <div className='flex flex-col gap-6'>
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <Image src={MeImg} className='rounded-xl' alt='Ethan Harvey' />
+          </div>
+
+          <div className='w-full shadow-xl shadow-gray-600 rounded-xl p-6'>
+            <h3 className='text-gray-300 text-lg font-semibold pb-3 border-b border-gray-600'>
+              Contact Info
+            </h3>
+            <div className='pt-4 space-y-3 text-gray-200 text-sm'>
+              <p>
+                <span className='text-[#E94B3CFF] uppercase tracking-widest text-xs'>
+                  Name
+                </span>
+                <br />
+                Ethan Harvey
+              </p>
+              <p>
+                <span className='text-[#E94B3CFF] uppercase tracking-widest text-xs'>
+                  Location
+                </span>
+                <br />
+                Colorado Springs, CO
+              </p>
+              <p>
+                <span className='text-[#E94B3CFF] uppercase tracking-widest text-xs'>
+                  Email
+                </span>
+                <br />
+                <a
+                  href='mailto:xethanharvey@gmail.com'
+                  className='hover:text-[#E94B3CFF] transition-colors'
+                >
+                  xethanharvey@gmail.com
+                </a>
+              </p>
+              <p>
+                <span className='text-[#E94B3CFF] uppercase tracking-widest text-xs'>
+                  GitHub
+                </span>
+                <br />
+                <a
+                  href='https://github.com/EthanWHarvey'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='hover:text-[#E94B3CFF] transition-colors'
+                >
+                  github.com/EthanWHarvey
+                </a>
+              </p>
+            </div>
+            <div className='flex gap-4 pt-5'>
+              <a
+                href='https://github.com/EthanWHarvey'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <div className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <FaGithub size={18} />
+                </div>
+              </a>
+              <a href='mailto:xethanharvey@gmail.com'>
+                <div className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <AiOutlineMail size={18} />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
-
 export default About;

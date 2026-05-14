@@ -8,6 +8,12 @@ import javascript from "../public/assets/skills/javascript.png";
 import nodeJS from "../public/assets/skills/node.png";
 import react from "../public/assets/skills/react.png";
 import solidity from "../public/assets/skills/solidity.png";
+import python from "../public/assets/skills/python.png";
+import tailwind from "../public/assets/skills/Tailwind.png";
+import nextjs from "../public/assets/skills/nextjs.png";
+import cLang from "../public/assets/skills/CLanguage.png";
+
+
 
 const Skills = () => {
   return (
@@ -21,40 +27,40 @@ const Skills = () => {
           <div className='p-6 shadow-xl ronded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ethereum} width='64px' height='64px' alt='/' />
+                <Image src={python} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-200'>Ethereum</h3>
+                <h3 className='text-gray-200'>Python</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl ronded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={hardhat} width='64px' height='64px' alt='/' />
+                <Image src={tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-200'>Hardhat</h3>
+                <h3 className='text-gray-200'>Tailwind</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl ronded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ethersJS} width='64px' height='64px' alt='/' />
+                <Image src={nextjs} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-200'>Ethers.js</h3>
+                <h3 className='text-gray-200'>Next.JS</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl ronded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={solidity} width='64px' height='64px' alt='/' />
+                <Image src={cLang} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-200'>Solidity</h3>
+                <h3 className='text-gray-200'>C</h3>
               </div>
             </div>
           </div>
@@ -74,7 +80,7 @@ const Skills = () => {
                 <Image src={nodeJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-200'>Node.js</h3>
+                <h3 className='text-gray-200'>Node.JS</h3>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaFileAlt } from "react-icons/fa";
 import ContactImg from "../public/assets/contact.jpg";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
@@ -40,24 +40,25 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Ethan Harvey</h2>
-                <p>Blockchain / Front-end Developer</p>
+                <p>Entrepreneur & Software Engineer</p>
                 <p className='py-4'>
-                  I am available for full-time, part-time, or freelance
-                  positions. Contact me and let&apos;s talk.
+                  I&apos;m primarily focused on growing enlightn and my
+                  technical skills. If you have an interesting project or
+                  just want to connect, feel free to reach out.
                 </p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a
-                    href='https://www.linkedin.com/in/ethan-harvey-x10i/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaLinkedinIn />
-                    </div>
-                  </a>
+                   <a
+                                href='https://docs.google.com/document/d/1KZr7FSp6WdqqbQEizJH3zLiDeZKOY5XV4dvAn4fSALA/edit?usp=sharing'
+                                target='_blank'
+                                rel='noreferrer'
+                              >
+                                <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                  <FaFileAlt />
+                                </div>
+                              </a>
                   <a
                     href='https://github.com/EthanWHarvey'
                     target='_blank'
